@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* o * é para o site todo */
+}
+.container{
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content:space-between; /*horizontal*/
+}
+header, footer {
+    background-color: #008374;
+    color: white;
+    padding: 20px 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.inicio{
+    background-color:#23A092;
+    height: 430px;
+    padding-top: 80px;
+}
+.conteudo{
+    color: white;
+    padding-left: 80px;
+    width: 600px;
+}
+.tInicio{
+    font-size: 50px;
+}
+.pInicio{
+    font-size: 40px;
+}
+.caixa{
+    width: 200px;
+    border: 2px solid black;
+    padding: 60px 40px;
+    text-align: center;
+    height: 100px;
+}
+.diferente{
+    margin: 100px 100px;
+}
+h4{
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.planos{
+    margin: 0 100px;
+    padding: 10px 0 50px;
+}
+.card{
+    background-color: #edecec;
+    width: 500px;
+    text-align: center;
+    padding: 30px 0;
+    height: 350px;
+    margin: 0 100px;
+}
+.linha{
+    height: 30px;
+}
+.clara{
+    background-color:#F6A256;
+}
+.escura{
+    background-color: #FF912D;
+}
+h3{
+    font-size: 25px;
+}
+h5{
+    font-size: 35px;
+    margin: 7px 0;
+    font-weight: 200;
+}
+.cinza{
+    color: gray;
+}
+footer .menu{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+button{
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 5px 7px;
+}
+.noticias{
+    width: 350px;
+}
+.noticias h3{
+    font-weight: 200;
+}
+.contato{
+    background-color: #23A092;
+    height: 500px;
+    color: white;
+    padding: 90px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+label{
+    color: white;
+}
+.cTitulo{
+    font-size: 30px;
+}
+.cTexto{
+    font-size: 24px;
+}
+button{
+    width: 150px;
+    margin-top: 20px;
+}
+.texto{
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.planos h3{
+    font-size: 35px;
+}
+form input{
+    width: 500px;
+    height: 30px;
+}
+
+ /* a:hover {    /*ALGO VAI ACONTECER QUANDO PASSAR O MOUSE 
+    color: red;
+    scale: 2;
+    transition: 2s ease-in-out;   /*quando passa o mouse e quando tira
+} */
+
+
+.card h3{
+    font-size: 40px;
+}
+.preco{
+    padding-top: 20px;
+}
